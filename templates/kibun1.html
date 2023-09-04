@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <title>気分レコメンド</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <a href="/">TOPへ戻る</a>
+    <h1>気分診断のページです！</h1>
+
+    <div class="kibunform">
+        <form action="/kibun2" method="POST">
+            <label><input type="checkbox" name="fav" value="スッキリ">スッキリ</label>
+            <label><input type="checkbox" name="fav" value="コク">コク</label>
+            <label><input type="checkbox" name="fav" value="甘さ">甘さ</label>
+            <label><input type="checkbox" name="fav" value="フルーティー">フルーティー</label>
+            <label><input type="checkbox" name="fav" value="和風">和風</label>
+            <label><input type="checkbox" name="fav" value="苦味">苦味</label>
+            <label><input type="checkbox" name="fav" value="低アルコール">低アルコール</label>
+            <label><input type="checkbox" name="fav" value="高アルコール">高アルコール</label>
+            <label><input type="checkbox" name="fav" value="高級感">高級感</label>
+            <label><input type="checkbox" name="fav" value="手軽さ">手軽さ</label>
+            <input type="submit" value="今の気分を送信!">
+        </form>
+    </div>
+    
+</body>
+
+</html>
