@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- cssファイルの読み込み -->
-    <link rel=stylesheet href="../static/images/style.css">
-
+    <link rel=stylesheet href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>beer maestro</title>
 </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <h1>beer maestro</h1>
-        </div>
-    </header>
+<header>
+    <div class="logo">
+        <h1>Beer maestro</h1>
+    </div>
+</header>
+
 <!-- templateの継承部分 -->
     {% block content %}
     {% endblock %}
 <!-------------------->
-    <footer>
-        <div class="footer_logo">©︎ 2023 Ryuki Toubai</div>
-    </footer>
+<footer>
+    <div class="footer_logo">©︎ 2023 Ryuki Toubai</div>
+</footer>
 </body>
 </html>
