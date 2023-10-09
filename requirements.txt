@@ -2,6 +2,7 @@ gunicorn==20.0.4
 flask==2.3.2
 transformers==4.32.1
 sentencepiece==0.1.99
-torch==1.13.1
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cpu
 scipy==1.11.1
 pandas==2.0.3
